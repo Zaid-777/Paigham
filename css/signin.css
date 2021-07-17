@@ -1,0 +1,99 @@
+
+body{
+	margin: 				0;
+	padding: 				0;
+	box-sizing: 			border-box;
+	background-image: 		url(../images/1.jpg);
+	background-repeat: 		no-repeat;
+	background-size: 		cover;
+	background-attachment: 	fixed;
+	font-family: 			sans-serif;
+
+
+}
+
+.form-control{
+	min-height: 	41px;
+	box-shadow: 	none;
+	border-color: 	#e1e1e1;
+}
+
+.form-control:focus{
+	border-color: 	#00cb82;
+}
+
+.form-control, .btn{
+	border-radius:	3px;
+
+}
+
+.form-header{
+	font-family: 	'Pacifico', sans-serif;
+	margin: 		-30px -30px 20px;
+	padding: 		30px 30px 10px;
+	text-align: 	center;
+	background: 	#1aaaf6;
+	color: 			#fff
+}
+.form-header h2{
+	font-size: 		34px;
+	font-weight: 	bold;
+	margin: 		0 0 10px;
+}
+
+.form-header p{
+	font-size: 		17px;
+	line-height: 	normal;
+	margin: 		20 0 15px;
+}
+
+.signin-form{
+	width: 			400px;
+	margin: 		0 auto;
+	padding: 		100px 0px 100px 0px;
+}
+
+.signin-form form{
+	color: 			#999;
+	margin-bottom: 	15px;
+	border-radius:	3px;
+	background: 	#f0f0f0;
+	box-shadow: 	4px 4px 6px 0px rgba(0,0,0,0.8);
+	padding: 		30px;
+
+}
+
+.signin-form,.form-group{
+	margin-bottom: 	20px;
+}
+
+.signin-form label{
+	font-size: 		17px;
+	font-weight: 	normal;
+}
+
+.signin-form .btn{
+	margin-top:   	8px;
+	font-size: 		16px;
+	font-weight: 	bold;
+	background: 	#1aaaf6;
+	border: 		none;
+	min-width: 		100px;
+}
+
+.signin-form .btn:hover,.signin-form .btn:focus{
+	background: 	#0f6af6 !important;
+	outline: 		none;
+}
+
+
+
+.signin-form a{
+	color:		#1aaaf6;
+}
+
+.signin-form a:hover{
+	color: 				#0f6af6 !important;
+	text-decoration: 	underline;
+	cursor: 			pointer;
+}
